@@ -1,0 +1,26 @@
+# Flask and related libraries
+Flask==2.3.3
+Flask-Cors==4.0.0
+gunicorn==20.1.0
+
+# Data processing and machine learning
+pandas==2.1.1
+numpy==1.26.0
+scikit-learn==1.3.1
+joblib==1.3.2
+tensorflow==2.15.0  # Optional: Only if you're using deep learning models like LSTM
+keras==2.15.0       # Optional: Only if you're using Keras
+
+# Geospatial data handling
+geopandas==0.13.2
+folium==0.14.0
+
+# API requests and utilities
+requests==2.31.0
+
+# Visualization (optional)
+matplotlib==3.8.0
+seaborn==0.13.0
+
+# Debugging and warnings
+python-dotenv==1.0.0  # Optional: For managing environment variables
