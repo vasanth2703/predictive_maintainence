@@ -127,7 +127,7 @@
             };
 
             // Make API call
-            fetch(`http://127.0.0.1:5000/predict_ioda?country_code=${countryCode}&start_time=${formatDateTime(startTime)}&end_time=${formatDateTime(endTime)}`)
+            fetch(`https://predictive-maintainence-gu8k.onrender.com/predict_ioda?country_code=${countryCode}&start_time=${formatDateTime(startTime)}&end_time=${formatDateTime(endTime)}`)
                 .then(response => response.json())
                 .then(data => {
                     if (data.error) {
